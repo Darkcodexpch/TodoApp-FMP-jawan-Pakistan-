@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap');
+/* universaal work */
+
+*{ margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+body{
+width: 100%;
+height: 100vh;
+background: linear-gradient(160deg, rgba(92,96,231,1)  55%, rgba(245,115,116,1) 0%);
+font-family: 'RocknRoll One', sans-serif;
+}
+
+.main-div{
+    height: auto;
+    width: 500px;
+    background-color: white;
+    margin: 0px auto;
+}
+.head{
+    height: 20%;
+    width: auto;
+    /* background-color: tomato !important; */
+    border-bottom: 1px solid #82829c;
+    position: relative;
+}
+.add{
+    background-color: #f57374 !important;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -22px;
+    right: 10px;
+}
+
+.btn{
+    background-color: #f57374 !important;
+}
+
+.fa-plus {
+    color: #fff;
+    font-weight: lighter;
+    font-size: 18px;
+}
+
+#text{
+
+padding: 10px 30px;
+margin: 20px;
+border-radius: 5px;
+}
+
+.date{
+    color: #666afb;
+}
+.task{
+    color: #bcbcd6;
+}
+
+.main-todo{
+    height: 80%;
+    width: auto;
+}
+
+
+.form-check-input:checked{
+    background-color: #f57374 !important;
+    border-color: #f57374 !important;
+}
+
+.form-check{
+    border-bottom: 1px solid #bcbcd6;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.form-check > span{
+    color: rgb(27, 27, 27);
+    padding: 10px;
+    font-size: 18px;
+   
+}
+
+.new {
+    height: 50px;
+    width: 90px;
+    background-color: rgba(245,115,116,1);
+    color: #fff;
+}
+
+
